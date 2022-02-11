@@ -9,5 +9,6 @@ for (let i = 0; i < str.length; i++) {
   // 반복할 때마다 배열 내의 원소들을 합함
 }
 
-console.log(result / str.length);
+console.log(Math.floor(result / str.length));
 // 평균값 출력
+// 소수점 자리는 버리는 메소드 추가
