@@ -6,8 +6,9 @@ for (let i = 2; i <= num; i++) {
     count++;
   }
 }
-
-if (count > 2) {
+if (count === 1) {
+  console.log("NO");
+} else if (count > 2) {
   console.log("NO");
 } else {
   console.log("YES");
